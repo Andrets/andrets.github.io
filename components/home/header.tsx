@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="bg-secondary h-17.25">
       <Blob type="big" className="bg-blue blur-big -top-40 left-75" />
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center h-full z-10">
         <nav className="font-serif">
           <ul className="flex gap-12">
             <li>
