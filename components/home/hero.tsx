@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Blob } from "@/components/blob";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -39,14 +40,18 @@ export function Hero() {
             </div>
           </div>
           <div className="flex gap-4">
-            <Button type="big">Contact Me</Button>
-            <Button type="icon">
-              <Image
-                src="/mingcute_github-fill.svg"
-                alt="GitHub"
-                width={32}
-                height={32}
-              />
+            <Button variant="big" asChild>
+              <Link href="https://t.me/dmitriy_junior">Contact Me</Link>
+            </Button>
+            <Button variant="icon" asChild>
+              <Link href="https://github.com/Andrets">
+                <Image
+                  src="/mingcute_github-fill.svg"
+                  alt="GitHub"
+                  width={32}
+                  height={32}
+                />
+              </Link>
             </Button>
           </div>
         </div>

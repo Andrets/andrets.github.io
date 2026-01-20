@@ -1,27 +1,36 @@
 import { cn } from "@/lib/utils";
+import { Slot } from "@radix-ui/react-slot";
 
 const variants = {
-  primary: "h-16 px-6 rounded-3xl",
+  primary: "px-6 rounded-3xl",
   secondary: "h-7 px-3 rounded-[0.875rem] border",
-  icon: "h-16 px-3.5 rounded-full",
-  big: "h-16 px-11.5",
+  icon: "px-3.5 rounded-full",
+  big: "w-57 pl-11 pr-11",
 };
 
+// Используем интерфейс для чистоты кода
+interface ButtonProps extends React.ComponentProps<"button"> {
+  variant?: keyof typeof variants;
+  asChild?: boolean;
+}
+
 export function Button({
-  children,
-  type,
-}: {
-  children: React.ReactNode;
-  type?: keyof typeof variants;
-}) {
+  asChild = false,
+  variant = "primary",
+  className,
+  ...props
+}: ButtonProps) {
+  const Comp = asChild ? Slot : "button";
+
   return (
-    <button
+    <Comp
+      data-slot="button"
       className={cn(
-        "bg-transparent border-2 border-foreground rounded-4xl h-16 text-foreground font-medium text-2xl leading-tighter",
-        variants[type || "primary"],
+        "bg-transparent cursor-pointer border-2 border-foreground h-16 rounded-4xl text-foreground font-medium text-2xl leading-tighter flex items-center justify-center",
+        variants[variant],
+        className,
       )}
-    >
-      {children}
-    </button>
+      {...props}
+    />
   );
 }
