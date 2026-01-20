@@ -4,20 +4,24 @@ import { Blob } from "@/components/blob";
 
 export function Hero() {
   return (
-    <div className="max-w-width mx-auto">
-      <div className="group mt-36.75 bg-surface pl-16 pt-12 pb-11 rounded-[5rem] relative overflow-hidden">
-        <div
-          className="absolute inset-0 rounded-[5rem] pointer-events-none"
-          style={{
-            padding: "1px",
-            background:
-              "linear-gradient(28.69deg, rgba(0, 0, 0, 0) 29%, rgba(255, 255, 255, 0.3) 100%)",
-            WebkitMask:
-              "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-            WebkitMaskComposite: "xor",
-            maskComposite: "exclude",
-          }}
-        />
+    <section className="max-w-width mx-auto">
+      <div className="group mt-34 bg-surface pl-16 pt-12 pb-11 rounded-[5rem] relative">
+        <div className="absolute inset-0 bg-surface rounded-[5rem] overflow-hidden">
+          <div
+            className="absolute inset-0 rounded-[5rem] pointer-events-none"
+            style={{
+              padding: "1px",
+              background:
+                "linear-gradient(28.69deg, rgba(0, 0, 0, 0) 29%, rgba(255, 255, 255, 0.3) 100%)",
+              WebkitMask:
+                "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
+              WebkitMaskComposite: "xor",
+              maskComposite: "exclude",
+            }}
+          />
+          <Blob type="small" className="bg-red left-127.5 -bottom-40" />
+          <Blob type="small" className="bg-green -right-35 -top-40" />
+        </div>
         <div className="flex flex-col gap-6 max-w-[57%] relative z-10">
           <div className="flex flex-col gap-2">
             <span className="text-secondary-grey font-mono text-sm leading-tight">
@@ -46,7 +50,7 @@ export function Hero() {
             </Button>
           </div>
         </div>
-        <div className="absolute bottom-0 right-0 z-10">
+        <div className="absolute bottom-0 right-0 z-20">
           <Image
             src="/dmitriyjunior.png"
             alt="Dmitriy Junior"
@@ -56,9 +60,7 @@ export function Hero() {
             height={594}
           />
         </div>
-        <Blob type="small" className="bg-red left-[510px] -bottom-[160px]" />
-        <Blob type="small" className="bg-green -right-[140px] -top-[160px]" />
       </div>
-    </div>
+    </section>
   );
 }

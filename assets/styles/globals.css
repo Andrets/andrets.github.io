@@ -7,13 +7,13 @@
     --surface: #212121;
     --foreground: #ffffff;
     --red: #900e14;
-    --green: #2dba4e;
+    --green: #1b8059;
     --blue: #3c4166;
     --font-sans: var(--font-plus-jakarta-sans);
     --font-mono: var(--font-jetbrains-mono);
     --font-serif: var(--font-inter);
-    --blur-big: 544px;
-    --blur-small: 200px;
+    --blur-big: 544px; /* 34rem 544px in rem */
+    --blur-small: 100px; /* 12.5rem in rem */
     --leading-normal: 160%;
     --leading-tight: 140%;
     --leading-tighter: 130%;

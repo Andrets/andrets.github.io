@@ -6,8 +6,8 @@ interface BlobProps {
 export function Blob({ type, className = "" }: BlobProps) {
   // Определяем стили заранее полными строками
   const styles = {
-    big: "w-80 h-80 blur-big",
-    small: "w-80 h-80 blur-small",
+    big: "w-[320px] h-[320px] blur-big transform-[matrix(-1, 0, 0, 1, 0, 0)]",
+    small: "w-[320px] h-[320px] blur-small",
   };
 
   return (
