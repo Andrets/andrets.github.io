@@ -4,7 +4,7 @@ import { Blob } from "@/components/blob";
 
 export function Footer() {
   return (
-    <footer className="bg-secondary relative">
+    <footer className="bg-secondary relative mt-40">
       <Blob type="big" className="bg-blue -top-40 -left-50" />
       <div className="pt-20 pb-11 flex justify-between max-w-width mx-auto items-center">
         <div className="flex flex-col gap-6 max-w-1/3">

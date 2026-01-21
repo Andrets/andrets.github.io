@@ -2,7 +2,8 @@ import { cn } from "@/lib/utils";
 import { Slot } from "@radix-ui/react-slot";
 
 const variants = {
-  primary: "px-6 rounded-3xl",
+  primary:
+    "px-3 h-7 rounded-[0.875rem] font-mono text-secondary-grey text-sm border border-secondary-grey",
   secondary: "h-12 px-3 rounded-[2rem] border",
   icon: "px-3.5 rounded-full",
   big: "w-57 pl-11 pr-11",
