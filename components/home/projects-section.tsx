@@ -1,4 +1,7 @@
-import { ProjectCard } from "@/components/project-card";
+import { BrochangeCard } from "@/components/brochange-card";
+import { GrandmasterCard } from "@/components/grandmaster-card";
+import { TeleparseCard } from "@/components/teleparse-card";
+import { Blob } from "@/components/blob";
 
 export function ProjectsSection() {
   return (
@@ -14,9 +17,15 @@ export function ProjectsSection() {
           </p>
         </div>
         <div className="flex flex-col gap-6">
-          <ProjectCard />
+          <BrochangeCard />
+          <GrandmasterCard />
+          <TeleparseCard />
         </div>
       </div>
+      <Blob
+        type="big"
+        className="-right-50 top-1/2 transform -translate-y-1/2"
+      />
     </section>
   );
 }

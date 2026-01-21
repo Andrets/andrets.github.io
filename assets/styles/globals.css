@@ -17,6 +17,8 @@
     --blue-dark: #1566b2;
     --blue-darker: #1256e8;
     --blue-lighter: #5ed6ff;
+    --blue-grandmaster: #373087;
+    --blue-teleparse: #28539b;
     --font-sans: var(--font-plus-jakarta-sans);
     --font-mono: var(--font-jetbrains-mono);
     --font-serif: var(--font-inter);
@@ -64,6 +66,8 @@
     --color-blue-pg: var(--blue-dark);
     --color-blue-docker: var(--blue-lighter);
     --color-blue-brofund: var(--blue-darker);
+    --color-blue-grandmaster: var(--blue-grandmaster);
+    --color-blue-teleparse: var(--blue-teleparse);
     --blur-big: var(--blur-big);
     --blur-small: var(--blur-small);
     --leading-normal: var(--leading-normal);
