@@ -3,13 +3,12 @@ import { Slot } from "@radix-ui/react-slot";
 
 const variants = {
   primary: "px-6 rounded-3xl",
-  secondary: "h-7 px-3 rounded-[0.875rem] border",
+  secondary: "h-12 px-3 rounded-[2rem] border",
   icon: "px-3.5 rounded-full",
   big: "w-57 pl-11 pr-11",
 };
 
-// Используем интерфейс для чистоты кода
-interface ButtonProps extends React.ComponentProps<"button"> {
+interface IButtonProps extends React.ComponentProps<"button"> {
   variant?: keyof typeof variants;
   asChild?: boolean;
 }
@@ -19,7 +18,7 @@ export function Button({
   variant = "primary",
   className,
   ...props
-}: ButtonProps) {
+}: IButtonProps) {
   const Comp = asChild ? Slot : "button";
 
   return (

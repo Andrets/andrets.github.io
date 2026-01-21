@@ -2,24 +2,14 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Blob } from "@/components/blob";
 import Link from "next/link";
+import { GradientMask } from "@/components/gradient-mask";
 
 export function Hero() {
   return (
     <section className="max-w-width mx-auto">
       <div className="group mt-34 bg-surface pl-16 pt-12 pb-11 rounded-[5rem] relative">
         <div className="absolute inset-0 bg-surface rounded-[5rem] overflow-hidden">
-          <div
-            className="absolute inset-0 rounded-[5rem] pointer-events-none"
-            style={{
-              padding: "1px",
-              background:
-                "linear-gradient(28.69deg, rgba(0, 0, 0, 0) 29%, rgba(255, 255, 255, 0.3) 100%)",
-              WebkitMask:
-                "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-              WebkitMaskComposite: "xor",
-              maskComposite: "exclude",
-            }}
-          />
+          <GradientMask />
           <Blob type="small" className="bg-red left-127.5 -bottom-40" />
           <Blob type="small" className="bg-green -right-35 -top-40" />
         </div>
