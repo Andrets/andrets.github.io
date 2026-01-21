@@ -3,7 +3,7 @@ import { Blob } from "@/components/blob";
 import Image from "next/image";
 import { Button } from "./ui/button";
 
-export function ProjectCard() {
+export function BrochangeCard() {
   return (
     <div className="group p-12 rounded-[5rem] bg-surface relative">
       <div className="absolute inset-0 bg-surface rounded-[5rem] overflow-hidden">
@@ -11,7 +11,7 @@ export function ProjectCard() {
         <Blob type="xs" className="bg-blue-brofund left-42 -bottom-25" />
       </div>
       <div className="z-10 relative flex gap-6">
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 max-w-110">
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2 justify-center items-center">
               <h3 className="font-medium text-2xl leading-tighter">
@@ -70,7 +70,7 @@ export function ProjectCard() {
           className="rounded-4xl"
         />
         <Image
-          src="/images/brofund.png"
+          src="/images/brochange.png"
           alt="Brochange"
           width={308}
           height={776}
