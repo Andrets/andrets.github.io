@@ -5,7 +5,7 @@ interface IBlobProps {
 
 export function Blob({ type, className = "" }: IBlobProps) {
   const styles = {
-    big: "w-[320px] h-[320px] blur-big transform-[matrix(-1, 0, 0, 1, 0, 0)]",
+    big: "w-[320px] h-[320px] blur-big transform-[matrix(-1, 0, 0, 1, 0, 0)] blob",
     small: "w-[320px] h-[320px] blur-small",
     xs: "w-[200px] h-[200px] blur-small",
   };

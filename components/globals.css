@@ -20,7 +20,7 @@
     --font-sans: var(--font-plus-jakarta-sans);
     --font-mono: var(--font-jetbrains-mono);
     --font-serif: var(--font-inter);
-    --blur-big: 544px; /* 34rem 544px in rem */
+    --blur-big: 272px; /* 34rem 544px in rem */
     --blur-small: 100px; /* 12.5rem in rem */
     --leading-normal: 160%;
     --leading-tight: 140%;
@@ -33,6 +33,15 @@
         rgba(0, 0, 0, 0) 29%,
         rgba(255, 255, 255, 0.3) 100%
     );
+    --color-gradient-blur: linear-gradient(
+        180deg,
+        #3c4166 50%,
+        rgba(60, 65, 102, 0) 110.63%
+    );
+}
+
+.blob {
+    background: var(--color-gradient-blur);
 }
 
 @theme inline {
@@ -64,6 +73,7 @@
     --leading-tighterest: var(--leading-tighterest);
     --container-width: var(--container-width);
     --color-gradient: var(--color-gradient);
+    --color-gradient-blur: var(--color-gradient-blur);
 }
 
 * {

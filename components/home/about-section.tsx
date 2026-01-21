@@ -68,7 +68,7 @@ export function AboutSection() {
           </div>
         </div>
       </div>
-      <Blob type="big" className="bg-blue -bottom-20 -right-50" />
+      <Blob type="big" className="-bottom-20 -right-50" />
     </section>
   );
 }

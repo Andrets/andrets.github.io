@@ -124,7 +124,7 @@ export function StackSection() {
           </StackCard>
         </div>
       </div>
-      <Blob type="big" className="bg-blue -bottom-18.5 -left-50" />
+      <Blob type="big" className="-bottom-18.5 -left-50" />
     </section>
   );
 }

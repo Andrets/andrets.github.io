@@ -34,7 +34,7 @@ export function LinksSection() {
           </ul>
         </div>
       </div>
-      <Blob type="big" className="bg-blue -bottom-60 -left-50" />
+      <Blob type="big" className="-bottom-60 -left-50" />
     </section>
   );
 }

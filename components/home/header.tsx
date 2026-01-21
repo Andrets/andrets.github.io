@@ -6,7 +6,7 @@ export function Header() {
     <header className="bg-secondary h-16 z-0">
       <Blob
         type="big"
-        className="bg-blue left-55.5 -top-40 transform-[matrix(-1, 0, 0, 1, 0, 0)] z-0"
+        className="left-55.5 -top-40 transform-[matrix(-1, 0, 0, 1, 0, 0)] z-0"
       />
       <div className="flex items-center justify-center h-full">
         <nav className="font-serif z-10">
