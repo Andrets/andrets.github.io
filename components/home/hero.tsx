@@ -6,7 +6,7 @@ import { GradientMask } from "@/components/gradient-mask";
 
 export function Hero() {
   return (
-    <section className="max-w-width mx-auto">
+    <section id="home" className="max-w-width mx-auto">
       <div className="group mt-34 bg-surface pl-16 pt-12 pb-11 rounded-[5rem] relative">
         <div className="absolute inset-0 bg-surface rounded-[5rem] overflow-hidden">
           <GradientMask />

@@ -2,7 +2,7 @@ import { Blob } from "@/components/blob";
 
 export function AboutSection() {
   return (
-    <section className="relative">
+    <section id="about" className="relative">
       <div className="max-w-width mx-auto flex flex-col gap-12">
         <div className="flex flex-col gap-8 justify-center items-center">
           <h2 className="font-semibold text-[2.5rem] leading-tightest text-center">

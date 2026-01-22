@@ -24,7 +24,7 @@ const logos = [
 
 export function LinksSection() {
   return (
-    <section className="relative">
+    <section id="contact" className="relative">
       <div className="max-w-width mx-auto">
         <div className="">
           <ul className="flex gap-6 w-full justify-center items-center">

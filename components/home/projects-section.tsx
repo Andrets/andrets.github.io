@@ -5,7 +5,7 @@ import { Blob } from "@/components/blob";
 
 export function ProjectsSection() {
   return (
-    <section className="relative">
+    <section id="projects" className="relative">
       <div className="max-w-width mx-auto flex flex-col gap-6">
         <div className="flex flex-col gap-4 justify-center items-center">
           <h2 className="font-semibold text-[2.5rem] leading-tightest">

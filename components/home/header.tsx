@@ -12,19 +12,19 @@ export function Header() {
         <nav className="font-serif z-10">
           <ul className="flex gap-12 z-10">
             <li>
-              <Link href="/">Home</Link>
+              <Link href="#home">Home</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="/stack">Stack</Link>
+              <Link href="#stack">Stack</Link>
             </li>
             <li>
-              <Link href="/projects">Projects</Link>
+              <Link href="#projects">Projects</Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
         </nav>
