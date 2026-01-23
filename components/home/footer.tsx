@@ -24,19 +24,25 @@ export function Footer() {
             </h3>
             <ul className="flex flex-col gap-2 text-secondary-grey">
               <li>
-                <Link href="https://twitter.com/andrets">GitHub</Link>
+                <Link href="https://github.com/Andrets">GitHub</Link>
               </li>
               <li>
-                <Link href="https://github.com/andrets">LinkedIn</Link>
+                <Link href="https://linkedin.com/in/dmitriy_junior">
+                  LinkedIn
+                </Link>
               </li>
               <li>
-                <Link href="https://linkedin.com/in/andrets">Telegram</Link>
+                <Link href="https://t.me/DmitriySurkov_DEV">Telegram</Link>
               </li>
               <li>
-                <Link href="https://instagram.com/andrets">Kwork</Link>
+                <Link href="https://kwork.ru/user/webdeveloper_dmitriy">
+                  Kwork
+                </Link>
               </li>
               <li>
-                <Link href="https://andrets.github.io">HH.ru</Link>
+                <Link href="https://hh.ru/resume/cb02ee02ff0c8c26220039ed1f646e436e7265">
+                  HH.ru
+                </Link>
               </li>
             </ul>
           </div>
@@ -46,19 +52,19 @@ export function Footer() {
             </h3>
             <ul className="flex flex-col gap-2 text-secondary-grey">
               <li>
-                <Link href="/">Home</Link>
+                <Link href="#home">Home</Link>
               </li>
               <li>
-                <Link href="/about">About</Link>
+                <Link href="#about">About</Link>
               </li>
               <li>
-                <Link href="/stack">Stack</Link>
+                <Link href="#stack">Stack</Link>
               </li>
               <li>
-                <Link href="/projects">Projects</Link>
+                <Link href="#projects">Projects</Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="#contact">Contact</Link>
               </li>
             </ul>
           </div>

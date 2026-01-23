@@ -19,7 +19,7 @@ const logos = [
   { id: 2, url: "linkedin.com/in/dmitriy_junior", icon: <LinkedinIcon /> },
   { id: 3, url: "github.com/Andrets", icon: <GithubIcon /> },
   { id: 4, url: "kwork.ru/user/webdeveloper_dmitriy", icon: <KworkIcon /> },
-  { id: 5, url: "t.me/dmitriy_junior", icon: <TelegramIcon /> },
+  { id: 5, url: "t.me/DmitriySurkov_DEV", icon: <TelegramIcon /> },
 ];
 
 export function LinksSection() {
