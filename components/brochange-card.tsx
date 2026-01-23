@@ -1,7 +1,7 @@
 import { GradientMask } from "@/components/gradient-mask";
 import { Blob } from "@/components/blob";
 import Image from "next/image";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 
 export function BrochangeCard() {
   return (
