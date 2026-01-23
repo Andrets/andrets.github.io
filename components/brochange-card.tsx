@@ -1,7 +1,7 @@
 import { GradientMask } from "@/components/gradient-mask";
 import { Blob } from "@/components/blob";
 import Image from "next/image";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 
 export function BrochangeCard() {
   return (
@@ -63,6 +63,7 @@ export function BrochangeCard() {
           </div>
         </div>
         <Image
+          unoptimized
           src="/images/brofund.png"
           alt="Brofund"
           width={308}
@@ -70,6 +71,7 @@ export function BrochangeCard() {
           className="rounded-4xl"
         />
         <Image
+          unoptimized
           src="/images/brochange.png"
           alt="Brochange"
           width={308}

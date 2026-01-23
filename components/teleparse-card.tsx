@@ -45,6 +45,7 @@ export function TeleparseCard() {
         </div>
         <div className="flex flex-col gap-6">
           <Image
+            unoptimized
             src="/images/teleparse_1.png"
             alt="Teleparse"
             width={640}
@@ -52,6 +53,7 @@ export function TeleparseCard() {
             className="rounded-4xl"
           />
           <Image
+            unoptimized
             src="/images/teleparse_2.png"
             alt="Teleparse"
             width={640}

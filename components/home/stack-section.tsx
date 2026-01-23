@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function StackSection() {
   return (
-    <section className="relative">
+    <section id="stack" className="relative">
       <div className="max-w-width mx-auto flex flex-col gap-6">
         <div className="flex flex-col gap-4 justify-center items-center">
           <h2 className="font-semibold text-[2.5rem] leading-tightest">
