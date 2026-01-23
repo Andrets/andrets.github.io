@@ -63,6 +63,7 @@ export function BrochangeCard() {
           </div>
         </div>
         <Image
+          unoptimized
           src="/images/brofund.png"
           alt="Brofund"
           width={308}
@@ -70,6 +71,7 @@ export function BrochangeCard() {
           className="rounded-4xl"
         />
         <Image
+          unoptimized
           src="/images/brochange.png"
           alt="Brochange"
           width={308}

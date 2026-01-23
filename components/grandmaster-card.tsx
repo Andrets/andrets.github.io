@@ -42,6 +42,7 @@ export function GrandmasterCard() {
         </div>
         <div className="flex flex-col gap-6">
           <Image
+            unoptimized
             src="/images/grandmaster_1.png"
             alt="Grandmaster"
             width={640}
@@ -49,6 +50,7 @@ export function GrandmasterCard() {
             className="rounded-4xl"
           />
           <Image
+            unoptimized
             src="/images/grandmaster_2.png"
             alt="Grandmaster"
             width={640}
