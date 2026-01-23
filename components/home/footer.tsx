@@ -14,7 +14,7 @@ export function Footer() {
             Let{"'"}s talk about your next challenge.
           </h2>
           <Button variant="big" asChild>
-            <Link href="https://t.me/dmitriy_junior">Contact Me</Link>
+            <Link href="https://t.me/DmitriySurkov_DEV">Contact Me</Link>
           </Button>
         </div>
         <div className="grid grid-cols-2 gap-6 font-serif">

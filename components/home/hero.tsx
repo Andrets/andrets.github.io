@@ -31,7 +31,7 @@ export function Hero() {
           </div>
           <div className="flex gap-4">
             <Button variant="big" asChild>
-              <Link href="https://t.me/dmitriy_junior">Contact Me</Link>
+              <Link href="https://t.me/DmitriySurkov_DEV">Contact Me</Link>
             </Button>
             <Button variant="icon" asChild>
               <Link href="https://github.com/Andrets">
